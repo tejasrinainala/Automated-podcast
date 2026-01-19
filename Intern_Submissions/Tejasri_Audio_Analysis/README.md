@@ -17,7 +17,9 @@ The system follows a simple client–server architecture where audio is uploaded
 4. Transcription is segmented using timestamps  
 5. Results are displayed and available for download  
 
-**Figure 1: System Architecture for Audio Analysis Pipeline**  
+## Architecture Diagram
+![System Architecture](images/architecture.png)
+  
 
 ---
 
@@ -36,7 +38,9 @@ The system follows a simple client–server architecture where audio is uploaded
 The system currently performs transcription and timestamp-based segmentation.  
 Additional steps such as audio cleaning and GenAI-powered summarization are planned as future enhancements.
 
-**Figure 2: Audio Processing Pipeline**
+## Audio Processing Pipeline
+![Pipeline](images/pipeline.png)
+
 
 ---
 
@@ -89,7 +93,8 @@ Human validation is supported by:
 
 This ensures transparency and trust in the generated results.
 
-**Figure 3: Human Review and Validation Flow**
+##Human in the loop
+![Human in the loop](images/human-in-the-loop.png)
 
 ---
 
@@ -106,18 +111,28 @@ This ensures transparency and trust in the generated results.
 
 ### Step 1: Home Page – Audio Upload
 The home page allows users to upload an audio file for analysis.
+## Demo – Home Page
+![Home Page](images/home.png)
 
 ### Step 2: Select Audio File
 Select an audio file to upload and process.
+## Demo – Home Page
+![Home Page](images/choose-file.png)
 
 ### Step 3: Audio Upload and Analysis
 Click the **Analyze Audio** button to start transcription and segmentation.
+![Home page](images/analyze.png)
 
 ### Step 4: Segmented Output with Timestamps
 The audio is segmented into smaller parts with start time, end time, and transcribed text.
+## Demo - View Page
+![View Page](images/transcripts-segments.png)
 
 ### Step 5: View and Download Options
 Users can view the transcription and download transcript and segmented timestamp files.
+## Demo - Home Page
+![Home page](images/view-options.png)
+
 
 Users can manually review the transcription and segmentation results before using or sharing them.
 
